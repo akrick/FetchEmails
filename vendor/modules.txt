@@ -1,0 +1,44 @@
+# github.com/emersion/go-imap v1.0.6
+## explicit
+github.com/emersion/go-imap
+github.com/emersion/go-imap/client
+github.com/emersion/go-imap/commands
+github.com/emersion/go-imap/responses
+github.com/emersion/go-imap/utf7
+# github.com/emersion/go-message v0.14.0
+## explicit
+github.com/emersion/go-message
+github.com/emersion/go-message/charset
+github.com/emersion/go-message/mail
+github.com/emersion/go-message/textproto
+# github.com/emersion/go-sasl v0.0.0-20191210011802-430746ea8b9b
+github.com/emersion/go-sasl
+# github.com/emersion/go-textwrapper v0.0.0-20200911093747-65d896831594
+github.com/emersion/go-textwrapper
+# github.com/martinlindhe/base36 v1.1.0
+github.com/martinlindhe/base36
+# golang.org/x/net v0.0.0-20201207224615-747e23833adb
+## explicit
+golang.org/x/net/html
+golang.org/x/net/html/atom
+golang.org/x/net/html/charset
+# golang.org/x/text v0.3.5-0.20201125200606-c27b9fd57aec
+## explicit
+golang.org/x/text/encoding
+golang.org/x/text/encoding/charmap
+golang.org/x/text/encoding/htmlindex
+golang.org/x/text/encoding/ianaindex
+golang.org/x/text/encoding/internal
+golang.org/x/text/encoding/internal/identifier
+golang.org/x/text/encoding/japanese
+golang.org/x/text/encoding/korean
+golang.org/x/text/encoding/simplifiedchinese
+golang.org/x/text/encoding/traditionalchinese
+golang.org/x/text/encoding/unicode
+golang.org/x/text/internal/language
+golang.org/x/text/internal/language/compact
+golang.org/x/text/internal/tag
+golang.org/x/text/internal/utf8internal
+golang.org/x/text/language
+golang.org/x/text/runes
+golang.org/x/text/transform
