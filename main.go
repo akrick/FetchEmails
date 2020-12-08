@@ -119,7 +119,7 @@ func main() {
 		}
 
 		// Process each message's part
-		for {
+		//for {
 			p, err := mr.NextPart()
 			if err == io.EOF {
 				break
@@ -136,9 +136,9 @@ func main() {
 				if err != nil {
 					fmt.Println(err)
 				}
+				fmt.Println(email[0])
 			}
-			fmt.Println(email)
-		}
+		//}
 		i++
 	}
 }
