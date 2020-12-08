@@ -104,7 +104,8 @@ func main() {
 
 		r := msg.GetBody(&section)
 		if r == nil {
-			log.Fatal("Server didn't returned message body")
+			fmt.Println("Server didn't returned message body")
+			continue
 		}
 
 		// Create a new mail reader
