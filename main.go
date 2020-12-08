@@ -1,15 +1,12 @@
 package main
 
 import (
-	"bufio"
 	"flag"
 	"fmt"
 	"github.com/emersion/go-imap"
 	"github.com/emersion/go-imap/client"
 	_ "github.com/emersion/go-message/charset"
 	"github.com/emersion/go-message/mail"
-	"golang.org/x/net/html/charset"
-	"golang.org/x/text/encoding"
 	"io"
 	"io/ioutil"
 	"log"
@@ -29,7 +26,7 @@ func PutData(email string) (err error) {
 
 	var f *os.File
 	//write csv record
-	csvFile := path + "/data.csv"
+	csvFile := "./data.csv"
 	f, err = os.OpenFile(csvFile, os.O_APPEND|os.O_CREATE, 0755)
 
 	if err != nil {
