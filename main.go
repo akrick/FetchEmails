@@ -98,7 +98,8 @@ func main() {
 		}
 		msg := <-messages
 		if msg == nil {
-			log.Fatal("Server didn't returned message")
+			fmt.Println("Server didn't returned message")
+			continue
 		}
 
 		r := msg.GetBody(&section)

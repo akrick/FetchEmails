@@ -5,3 +5,4 @@ command, as bellow:
 ```
 go run main.go -server imap.test.com:143 -email test@test.com -password test
 ```
+
