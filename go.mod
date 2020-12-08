@@ -1,4 +1,4 @@
-module github.com/FecthSinaEmails
+module github.com/FecthEmails
 
 go 1.15
 
