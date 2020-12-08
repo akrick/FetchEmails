@@ -67,14 +67,7 @@ func main() {
 	if err := imapClient.Login(email, password); err != nil {
 		log.Fatal(err)
 	}
-	//创建邮件夹目录
-	_, err = os.Stat(email)
-	if os.IsNotExist(err) {
-		err = os.Mkdir(email, os.ModePerm)
-		if err != nil{
-			log. Fatal(err)
-		}
-	}
+
 	// Select INBOX
 	mbox, err := imapClient.Select("INBOX", false)
 	if err != nil {
