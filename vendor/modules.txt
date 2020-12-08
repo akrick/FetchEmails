@@ -17,13 +17,7 @@ github.com/emersion/go-sasl
 github.com/emersion/go-textwrapper
 # github.com/martinlindhe/base36 v1.1.0
 github.com/martinlindhe/base36
-# golang.org/x/net v0.0.0-20201207224615-747e23833adb
-## explicit
-golang.org/x/net/html
-golang.org/x/net/html/atom
-golang.org/x/net/html/charset
 # golang.org/x/text v0.3.5-0.20201125200606-c27b9fd57aec
-## explicit
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap
 golang.org/x/text/encoding/htmlindex
