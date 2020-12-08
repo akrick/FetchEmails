@@ -1,4 +1,4 @@
-# FecthSinaEmails
+# FecthEmails
 Fecth Emails and filter the email address out from the content
 
 command, as bellow:
