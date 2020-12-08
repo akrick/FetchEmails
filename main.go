@@ -12,6 +12,7 @@ import (
 	"log"
 	"os"
 	"regexp"
+	"strconv"
 )
 
 func init()  {
@@ -136,7 +137,7 @@ func main() {
 				if err != nil {
 					fmt.Println(err)
 				}
-				fmt.Println(email[0])
+				fmt.Println(strconv.Itoa(int(i))+": "+email[0])
 			}
 		//}
 		i++
