@@ -111,7 +111,8 @@ func main() {
 		// Create a new mail reader
 		mr, err := mail.CreateReader(r)
 		if err != nil {
-			log.Fatal(err)
+			fmt.Println(err)
+			continue
 		}
 
 		// Process each message's part
@@ -120,7 +121,8 @@ func main() {
 			if err == io.EOF {
 				break
 			} else if err != nil {
-				log.Fatal(err)
+				fmt.Println(err)
+				continue
 			}
 			b, _ := ioutil.ReadAll(p.Body)
 			reEmail := `[\w\.]+@\w+\.[a-z]{2,3}(\.[a-z]{2,3})?`
